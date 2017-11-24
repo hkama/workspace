@@ -6,6 +6,8 @@
 using namespace std;
 
 void Show(const Stream& stream) {
+  //setはエラーを出す
+  //stream.Set();
   cout << stream.Get() << endl;
 }
 
