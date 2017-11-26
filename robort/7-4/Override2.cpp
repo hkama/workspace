@@ -21,12 +21,16 @@ bool Average(Stream &stream) {
 }
 
 int main () {
+  cout << "Enter-> 3 1 -1" << endl;
   InputStream istream;
   Average(istream);
 
   static const double ARRAY[] = {0.5, 1.5, -1};
   ArrayStream astream(ARRAY);
   Average(astream);
+
+  Stream stream;
+  Average(stream);
 }
 
   

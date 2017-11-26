@@ -7,7 +7,7 @@ double Stream::Get () const {
 }
 
 bool Stream::Set ()  {
-  cout << "Stream::Set" << endl;
+  cout << "Stream::Set called" << endl;
   m_n = -1;
   return false;
 }
